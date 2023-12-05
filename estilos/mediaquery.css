@@ -6,6 +6,7 @@
     }
     section#login{
         width: 80vw;
+        height: 280;
 
     }
     section#login >div#imagem{
@@ -17,6 +18,16 @@
         float: right;
         width: 70%;
     }
+    div#formulario > p{
+        text-align: center;
+        font-size: 1em;
+    }
+    div.campo >input{
+        height: 96%;
+        width:87%;
+    }
+  
+   
     
 }
 @media screen and (min-width:992px){
@@ -25,9 +36,10 @@
     }
     section#login{
         width: 950px;
+        height: 350;
     }
     section#login >div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     
@@ -37,5 +49,17 @@
         width: 50%;
         
     }
+    div#formulario > p{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    div#formulario >h1{
+        font-size: 2em;
+    }
+    div.campo >input{
+        height: 96%;
+        width:87%;
+    }
+  
     
 }
